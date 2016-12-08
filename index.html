@@ -5,11 +5,16 @@
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
+
 <body>
 	<div class="container">
 		<div class="row">
 			<div class='col-sm-12 text-center'>
 				<h1>TIC TAC TOE</h1>
+			</div>
+			<div id="message" class='col-sm-12 text-center'>
+
 			</div>
 			<div id="board">
 				<!-- The first row, also a regular row -->
@@ -30,11 +35,19 @@
 				</div>
 
 			</div>
+				<button id="reset" onclick="reset()">RESET(singlePlayer)</button>
+				<br>
+				<button id="computerAutoMode" onclick="computerAuto()">Computer Mode(Auto)</button>
+				<br>
+				<button id="computerTurn" onclick="computerMove()">Computer Turn(onClick)</button>
+
+
 		</div>
 	</div>
 
-
-
 <script type="text/javascript" src="scripts.js"></script>
+
+
 </body>
 </html>
+
